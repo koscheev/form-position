@@ -1,0 +1,83 @@
+.ground {
+    position: relative;
+    width: 1000px;
+    height: 1000px;
+    margin: 0 auto;
+}
+.circle_top_left {
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+    background-color: red;
+    }
+.circle_top_left:hover {
+    z-index: 1;
+    background-color: green;
+}
+.circle_top_right {
+    position: absolute;
+    top: 15%;
+    left: 65%;
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+    background-color: red;
+}
+.circle_top_right:hover {
+    z-index: 1;
+    background-color:green;
+}
+
+.circle_down_left {
+    position: absolute;
+    top: 65%;
+    left: 15%;
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+    background-color: red;
+}
+.circle_down_left:hover {
+    z-index: 1;
+    background-color:green;
+}
+
+.circle_down_right {
+    position: absolute;
+    top: 65%;
+    left: 65%;
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+    background-color: red;
+}
+.circle_down_right:hover {
+    z-index: 1;
+    background-color:green;
+}
+.square_big {
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    width: 50%;
+    height: 50%;
+    background-color: blue;
+}
+.square_big:hover {
+    z-index: 2;
+    background-color: grey;
+}
+
+
+.square_small {
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    width: 30%;
+    height: 30%;
+    background-color: orange;
+    border-radius: 10%;
+}
